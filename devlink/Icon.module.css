@@ -1,0 +1,16 @@
+.icon-color {
+  display: inline-flex;
+  color: inherit;
+}
+
+.icon-color:where(.w-variant-51d5d8fc-9046-c299-32a4-4c984147d74e) {
+  color: var(--colors--primary-accent);
+}
+
+.icon-color:where(.w-variant-82f5bd89-f137-ad7f-6f6c-6469a84a7586) {
+  color: var(--_color---secondary--yellow);
+}
+
+.icon-color:where(.w-variant-f1de003c-5ca1-0b0c-954e-47163fd96102) {
+  color: var(--_color---secondary--dark-blue);
+}

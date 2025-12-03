@@ -1,0 +1,72 @@
+.crp_section_badge {
+  display: flex;
+  margin-bottom: 13px;
+  padding-top: 4px;
+  padding-right: 14px;
+  padding-bottom: 4px;
+  padding-left: 14px;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--_color---neutral--gray-200);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: var(--_color---neutral--gray-200);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--_color---neutral--gray-200);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: var(--_color---neutral--gray-200);
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+  border-bottom-left-radius: 999px;
+  border-bottom-right-radius: 999px;
+
+  width: max-content;
+}
+
+@media screen and (max-width: 767px) {
+  .crp_section_badge {
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .crp_section_badge {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .crp_section_badge.cpr-owl-carousel-badge {
+    margin-left: 0px;
+  }
+}
+
+.badge-icon {
+  display: flex;
+}
+
+.badge-text {
+  color: var(--_color---neutral--gray-700);
+  font-weight: var(--_typography---paragraph-body--font-weight);
+  font-size: 12px;
+}
+
+.badge-text.u-text-white {
+  color: var(--colors--text);
+}
+
+.u-text-white {
+  color: var(--white-0065a3d9);
+}

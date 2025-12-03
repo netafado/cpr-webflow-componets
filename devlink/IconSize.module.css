@@ -1,0 +1,18 @@
+.icon {
+  display: inline-flex;
+  width: 1em;
+  font-size: 1em;
+  font-style: normal;
+}
+
+.icon:where(.w-variant-cdea1590-5e30-cc7c-cd65-a8b7cf1f5b9e) {
+  font-size: var(--_size---1-5rem\<deleted\|variable-f3ca9317-f658-e5ae-7950-f14c04b8bdeb\>);
+}
+
+.icon:where(.w-variant-073eca29-ad4a-37a9-ba36-9e6d4f264087) {
+  font-size: var(--_size---2rem\<deleted\|variable-703e76dd-22c1-0e62-be30-102e06bdb527\>);
+}
+
+.icon:where(.w-variant-3a6d74cd-d37c-fae6-8975-689219a7df3f) {
+  font-size: var(--_size---3rem\<deleted\|variable-69c16ee0-18a3-4590-ef2c-d3d00d2064c9\>);
+}

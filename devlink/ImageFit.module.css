@@ -1,0 +1,48 @@
+.u-img-cover {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.u-img-cover:where(.w-variant-109354ec-e18b-6d34-fc97-2bd60ed75688) {
+  object-position: 0% 0%;
+}
+
+.u-img-cover:where(.w-variant-40e3e929-19ef-9b36-6290-dc5709682adc) {
+  object-position: 50% 0%;
+}
+
+.u-img-cover:where(.w-variant-0da5bd83-82c0-9ff7-a129-8f787e266277) {
+  object-position: 100% 0%;
+}
+
+.u-img-cover:where(.w-variant-95f10c6a-375e-6791-942f-befcfd098245) {
+  object-position: 0% 50%;
+}
+
+.u-img-cover:where(.w-variant-70209591-5532-2fc0-7d51-2b8b6dddb987) {
+  object-position: 100% 50%;
+}
+
+.u-img-cover:where(.w-variant-a7ddd5b7-263c-c9cb-72d3-05c79a748253) {
+  object-position: 0% 100%;
+}
+
+.u-img-cover:where(.w-variant-1d20b8de-5e87-989b-a18d-586e4efc38e7) {
+  object-position: 50% 100%;
+}
+
+.u-img-cover:where(.w-variant-0230cd8b-7253-149b-4b7c-efe7ca05c971) {
+  object-position: 100% 100%;
+}
+
+.u-d-none {
+  display: none;
+}

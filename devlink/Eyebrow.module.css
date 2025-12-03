@@ -1,0 +1,70 @@
+.eyebrow-component {
+  display: inline-block;
+  padding-top: 0.5rem;
+
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--colors--text);
+
+  align-self: flex-start;
+}
+
+.eyebrow-component:where(.w-variant-21e489c6-6989-f581-d9e1-28c58641cdf8) {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.eyebrow {
+  margin-bottom: var(--_typography---eyebrow--bottom-margin);
+
+  font-family: var(--_typography---eyebrow--font);
+  font-size: var(--_typography---eyebrow--font-size);
+  line-height: var(--_typography---eyebrow--line-height);
+  font-weight: var(--_typography---eyebrow--font-weight);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.eyebrow.cc-breadcrumb {
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+.eyebrow.cc-breadcrumb:hover {
+  text-decoration: underline;
+}
+
+.eyebrow.cc-breadcrumb.cc-current-page {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.eyebrow.u-mb-0 {
+  color: var(--colors--text);
+}
+
+.u-mb-0 {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  opacity: 1;
+  text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+  .u-mb-0 {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .u-mb-0 {
+    margin-bottom: 0px;
+    padding-left: 0em;
+  }
+}
+
+.eyebrow.u-mb-0.u-bg-orange {
+  background-color: #f6c9cb;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}

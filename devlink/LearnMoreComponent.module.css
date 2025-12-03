@@ -1,0 +1,18 @@
+.learn_more {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.learn_more_text {
+  display: flex;
+  color: var(--_color---neutral--gray-700);
+  font-size: var(--_typography---h5--bottom-margin);
+  font-weight: var(--_typography---h1--font-weight-800);
+}
+
+.code-embed-8 {
+  display: flex;
+}

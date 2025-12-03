@@ -1,0 +1,52 @@
+.cell_phone_infor {
+  display: flex;
+  height: auto;
+  min-height: 34px;
+  margin-bottom: 32px;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+
+  background-color: var(--_color---neutral--information-700);
+}
+
+@media screen and (max-width: 767px) {
+  .cell_phone_infor {
+    padding: 9px 10px 10px;
+    grid-column-gap: 13px;
+    grid-row-gap: 13px;
+  }
+}
+
+.infor-left {
+  display: flex;
+  grid-column-gap: 18px;
+  grid-row-gap: 18px;
+}
+
+.infor-left-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.code-embed-4 {
+  display: flex;
+}
+
+.infor-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+}
+
+.code-embed-5 {
+  display: flex;
+}

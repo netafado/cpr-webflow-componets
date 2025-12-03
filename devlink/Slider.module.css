@@ -1,0 +1,111 @@
+.slider-component {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+.swiper-wrapper {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.slider-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-nav:where(.w-variant-c311cdeb-ceb6-7bf6-f53b-d49174fa71b4) {
+  order: -1;
+}
+
+.slider-nav:where(.w-variant-f74aaf1a-c919-3c40-e951-d6794f67e0e1) {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+
+  padding: var(--_layout---spacing--margin-md);
+
+  pointer-events: none;
+}
+
+@media screen and (max-width: 767px) {
+  .slider-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.slider-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  grid-column-gap: 0.4rem;
+  grid-row-gap: 0.4rem;
+}
+
+.slider-pagination:where(.w-variant-f74aaf1a-c919-3c40-e951-d6794f67e0e1) {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+
+  padding-bottom: var(--_layout---spacing--margin-md);
+
+  pointer-events: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .slider-pagination {
+    width: 100%;
+    margin-top: 2em;
+    order: 9999;
+    flex: 0 0 auto;
+  }
+}
+
+.slider-pagination_button {
+  width: 1rem;
+  height: 1rem;
+  padding: 0px;
+
+  border: 1px solid #302f2c;
+  border-radius: 10rem;
+
+  background-color: transparent;
+
+  transition: border-color 300ms cubic-bezier(.165, .84, .44, 1),background-color 300ms cubic-bezier(.165, .84, .44, 1);
+}
+
+.slider-pagination_button:hover {
+  border-color: white;
+}
+
+.slider-pagination_button:focus-visible {
+  outline-color: #d14424;
+  outline-offset: 2px;
+  outline-style: solid;
+  outline-width: 2px;
+}
+
+.slider-pagination_button.cc-active {
+  border-color: white;
+  background-color: white;
+}
